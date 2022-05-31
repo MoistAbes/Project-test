@@ -1,4 +1,4 @@
 package com.kodilla.ecommercee.lol;
 
-public class lol {
+public class lolz {
 }
