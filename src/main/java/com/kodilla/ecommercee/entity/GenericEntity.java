@@ -1,11 +1,12 @@
-package com.kodilla.ecommercee;
+package com.kodilla.ecommercee.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
-@Entity
+
+
+import javax.persistence.*;
+
+@Entity(name = "Table")
+@Table(name= "TASKS")
 public class GenericEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
