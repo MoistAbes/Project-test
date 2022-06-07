@@ -10,8 +10,7 @@ import java.util.List;
 public class CartDto {
 
     private Long id;
-    private List<ProductDto> products;
-    private UserDto user;
-    private double total;
+    private String user;
+    private List<String> products;
 
 }
